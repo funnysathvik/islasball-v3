@@ -5,6 +5,7 @@ html {
   width: 100%;
   /* feel Free to replace the linear-gradient however you'd like!*/
   background-image: linear-gradient(to right, rgb(0, 6, 46), rgb(7, 0, 31));
+  align-items: center;
 }
 
 body {
