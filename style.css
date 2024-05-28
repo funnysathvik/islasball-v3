@@ -102,18 +102,6 @@ a:active{
   float: left;
 }
 
-.float-image-text-element {
-  margin: 15px 15px 15px 15px;
-}
-
-.highlight {
-  color: #1da5a2;
-}
-
-.left-margin-twenty-five {
-  margin-left: 25px;
-}
-
 .center-container {
   height: 500px;
   position: relative;
@@ -129,103 +117,14 @@ a:active{
   transform: translate(-50%, -50%);
 }
 
-
-
-.topnav {
-  overflow: hidden;
-  background-color: #10003d;
-  position: relative;
-}
-
-
-.topnav #myLinks {
-  display: none;
-}
-
-
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: inline-block;
-}
-
-
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-
-.topnav a:hover {
-  background-color: #1da58a;
-  color: black;
-}
-
-
-.active {
-  background-color: #021950;
-  color: white;
-}
-
-.element {
-  height: 600px;
-}
-
-.element img {
-  max-width: 300px;
-}
-
-.fifty-space {
-  height: 100px;
-}
-
 hr{
   border-radius: 100px;
   height:1.5px;
   background-color:#f9f7f7;
 
 }
-nav{
-  float:left;
-  width:10%;
-  height:100%;
-  background-color:#292929;
-  margin:0px 10px 0px 0px;
-}
-.black-background{
-    background-color:black;
-}
-.white-backround{
-  background-color: #FFFFFF;
-}
-input{
-  border-radius: 50px;
-  padding:15px;
-}
-footer{
-  background-color:black;
-  position: absolute;
-  bottom:0px;
-  top:15px;
-  margin:0%;
-}
 
 
-abbr{
-  text-decoration:none;
-}
-.beach-background{
-  background-image: url(https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png);
-  min-width:90%;
-  min-height:90%;
-  background-size: cover;
-  border-radius:15px;
-}
 h1,h2,h3,h4{
   font-family: "Zilla Slab", "Raleway", monospace !important ;
 }
