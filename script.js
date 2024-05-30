@@ -9,7 +9,7 @@ function shoot(){
         document.getElementById("hello").innerHTML="YOU MADE IT!!!!!!!"
         score = score + 1;
         slicers = slicers+1;
-        document.getElementById("score").innerHTML = "Your score is: " + slicers;
+        document.getElementById("dop").innerHTML = "Your score is: " + slicers;
     }
     else{
         document.getElementById("play").src="islasmissbasketball.png";
