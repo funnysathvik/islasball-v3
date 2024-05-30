@@ -1,4 +1,5 @@
 score = 0;
+slicers = 0;
 document.getElementById("poopski").innerHTML = "score - "+score;
 function shoot(){
     shootvar = Math.random();
@@ -7,6 +8,8 @@ function shoot(){
         document.getElementById("play").src="islasmakes.png";
         document.getElementById("hello").innerHTML="YOU MADE IT!!!!!!!"
         score = score + 1;
+        slicers = slicers+1;
+        document.getElementById("score").innerHTML = "Your score is: " + slicers;
     }
     else{
         document.getElementById("play").src="islasmissbasketball.png";
