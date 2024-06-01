@@ -38,5 +38,6 @@ function setup(){
 }
 
 function draw(){
-   music.play(); 
+   music.play();
+   music.loop();
 }
