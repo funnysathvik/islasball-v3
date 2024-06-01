@@ -28,3 +28,15 @@ function rizz(){
     document.getElementById("shootbutton").onclick = shoot;
     window.location = "poop.html"
 }
+
+function preload(){
+    music = loadSound("for the future.mp3");
+}
+
+function setup(){
+    
+}
+
+function draw(){
+   music.play(); 
+}
