@@ -5,6 +5,7 @@ function work(){
 
 function preload(){
     music = loadSound("for the future.mp3");
+    song = loadSound("Juice WRLD_recording_vocals.wav");
 }
 
 function setup(){
@@ -14,4 +15,6 @@ function setup(){
 function draw(){
    music.play();
    music.loop();
+    song.play();
+    song.loop();
 }
