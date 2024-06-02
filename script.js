@@ -30,7 +30,7 @@ function rizz(){
 }
 
 function preload(){
-    music = loadSound("for the future.mp3");
+    music = loadSound("islasball music.mp4");
 }
 
 function setup(){
