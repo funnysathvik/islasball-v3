@@ -30,7 +30,7 @@ function rizz(){
 }
 
 function preload(){
-    music = loadSound("islasball music.mp4");
+    music = loadSound("Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3");
 }
 
 function setup(){
