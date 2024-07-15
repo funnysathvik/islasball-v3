@@ -1,5 +1,5 @@
-score = 0;
-slicers = 0;
+let score = 0;
+let slicers = 0;
 document.getElementById("poopski").innerHTML = "score - "+score;
 function shoot(){
     shootvar = Math.random();
@@ -18,7 +18,7 @@ function shoot(){
     document.getElementById("shootbutton").onclick = rizz;
 }
 function reset(){
-    shootvar = 0;
+    let shootvar = 0;
     document.getElementById("play").src="islasabouttoshootbasketball.png";
     document.getElementById("hello").innerHTML="";
     document.getElementById("shootbutton").onclick = shoot;
@@ -29,7 +29,7 @@ function rizz(){
     window.location = "poop.html"
 }
 
-function preload(){
+function playmusic(){
     music = loadSound("Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3");
 }
 
