@@ -29,7 +29,7 @@ function rizz(){
     window.location = "poop.html"
 }
 
-function playmusic(){
+function playMusic(){
     music = loadSound("Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3");
 }
 
