@@ -1,9 +1,9 @@
-function work(){
+function preventCheating(){
     document.getElementById("hllo").innerHTML = "dont cheat next time"
     document.getElementById("pla").src = "rickastley.gif";
 }
 
-function preload(){
+function playMusic(){
     music = loadSound("for the future.mp3");
     song = loadSound("Juice WRLD_recording_vocals.wav");
 }
